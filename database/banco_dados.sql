@@ -13,7 +13,6 @@ email varchar(500) not null,
 celular varchar(20) not null
 );
 
-#CRIAR A TABELA DE ADMINISTRADORES NO BANCO DE DADOS:
 create table tblAdministrador(
 idAdministrador int unsigned auto_increment primary key,
 nome varchar(250) not null,
